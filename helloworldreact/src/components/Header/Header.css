@@ -1,0 +1,46 @@
+.header-content {
+  background-color: #000;
+  min-height: 100px;
+}
+.header-content-body {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.company-logo {
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+.company-logo {
+  max-width: 200px;
+  filter: brightness(0) invert(1);
+}
+
+.main-menu {
+  position: relative;
+  background-color: #333;
+  padding: 20px 0;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+.main-menu ul li {
+  margin: 0;
+  padding: 0 15px;
+  display: inline-block;
+  border-right: 1px solid #ffffff;
+}
+.main-menu ul li:last-child {
+  border-right: 0;
+}
+.main-menu ul li a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+.main-menu ul li :hover {
+  color: #f47521;
+}
+
