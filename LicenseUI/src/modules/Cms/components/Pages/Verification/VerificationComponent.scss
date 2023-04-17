@@ -1,0 +1,12 @@
+.verified-license-permit {
+   background: #92c0bd;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #8df1b3, #92c0bd);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #8df1b3, #92c0bd);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.license-permit--dimmed-text {
+    color: #444;
+}

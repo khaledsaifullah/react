@@ -1,0 +1,17 @@
+.info-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.info-table td,
+.info-table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+    color: #000;
+}
+
+.info-table th {
+    color: #fff;
+    background-color: #3c91e6;
+}

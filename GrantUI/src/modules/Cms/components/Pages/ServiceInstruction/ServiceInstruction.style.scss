@@ -1,0 +1,19 @@
+$themeColor: #058192;
+
+.bordered-title {
+    color: $themeColor;
+    padding-bottom: 2px;
+    border-bottom: 2px solid $themeColor;
+}
+
+.register-as-researcher-container {
+    color: #856404;
+    background: #fef5c4;
+    border: 1px solid #fadf98;
+    padding: 15px;
+    margin: 15px 0 0 0;
+}
+
+.table-bordered td, .table-bordered th{
+    border: 1px solid #ccc;
+}

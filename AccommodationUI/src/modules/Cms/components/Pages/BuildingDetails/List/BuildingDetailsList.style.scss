@@ -1,0 +1,382 @@
+body.public-theme-wrapper {
+    .spinner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 65vh;
+    }
+
+    .auditorium-detail-page {
+        background-color: #ECFBFB;
+    }
+
+    .auditorium-detail-page .container {
+        width: 100%;
+        max-width: 1050px;
+        padding: 0 15px;
+    }
+
+    .auditorium-gallery {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .tab-auditorium .ant-tabs-nav-wrap {
+        padding-bottom: 3px;
+    }
+
+    .tab-auditorium .ant-tabs-nav-wrap .ant-tabs-nav-list {
+        border-bottom: 1px solid #A5A5A5;
+    }
+
+    .tab-auditorium .ant-tabs-tab {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .tab-auditorium .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: #D94747;
+    }
+
+    .tab-auditorium .ant-tabs-ink-bar {
+        background: #D94747;
+        margin-bottom: -1px;
+    }
+
+    .tab-auditorium .ant-tabs-nav {
+        margin: 0;
+    }
+
+    .tab-auditorium .ant-tabs-content h2 {
+        color: #D94747;
+    }
+
+    .tab-auditorium .ant-tabs-content p {
+        color: #000;
+    }
+
+    .see-on-map a {
+        color: #1945E1;
+    }
+
+    .see-on-map a svg {
+        color: #1945E1;
+    }
+
+    .see-on-map svg {
+        color: #D94747;
+    }
+
+    .see-divider {
+        border-left: 1px solid #C6C6C6;
+    }
+
+    .reviewnumber {
+        font-size: 25px;
+    }
+
+    .tab-rating svg {
+        color: #EC1010;
+        font-size: 16px;
+    }
+
+    .get-special-text {
+        color: #08A676;
+        font-size: 16px;
+    }
+
+    .check-availability-btn {
+        background-color: #096AA0;
+        border-color: #096AA0;
+    }
+
+    .auditorium-color {
+        color: #D94747;
+    }
+
+    .serachfilter-result.auditorium-result {
+        border-color: #C88282;
+    }
+
+    .auditorium-package-title {
+        color: #333333;
+        line-height: 20px;
+    }
+
+    .auditorium-package-text {
+        font-size: 13px;
+    }
+
+    .auditorium-package-detail {
+        border-left: 2px solid #C6C6C6;
+    }
+
+    .auditorium-package-detail p {
+        margin: 0;
+        padding: 0;
+        color: #333333;
+        line-height: 17px;
+    }
+
+    .auditorium-package-view {
+        color: #08A676;
+        font-size: 11px;
+    }
+
+    .auditorium-package-view a {
+        color: #08A676;
+    }
+
+    .auditorium-package-price {
+        min-width: 140px;
+    }
+
+    .auditorium-package-types {
+        color: #1293CA;
+        font-size: 11px;
+    }
+
+    .auditorium-package-amount {
+        color: #0D5889;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .auditorium-package-tax {
+        color: #D94747;
+        font-size: 11px;
+    }
+
+    .reserve-btn {
+        background-color: #1129FF;
+        border-color: #1129FF;
+        padding: 1px 30px;
+        font-size: 15px;
+    }
+
+    .booking-input .ant-select-selector,
+    .booking-input .ant-picker {
+        width: 140px;
+        border: 1px solid #999 !important;
+        border-radius: 8px !important;
+    }
+
+    .available-text {
+        color: #08A676;
+        font-size: 12px;
+    }
+
+    .auditorium-package-text svg {
+        color: #0D5889;
+        font-size: 13px;
+    }
+
+    .auditorium-content {
+        border-color: #D94747 !important;
+    }
+
+    .auditorium-content ul {
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .auditorium-ratingbox {
+        background-color: #08A676;
+        height: 150px;
+    }
+
+    .auditorium-ratingbox h4 {
+        margin: 0;
+        padding: 0;
+        line-height: 15px;
+    }
+
+    .auditorium-ratingbox div {
+        font-size: 12px;
+    }
+
+    .auditorium-ratingbox svg {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .auditorium-review-comment h6 {
+        margin: 0;
+        padding: 0;
+        line-height: 17px;
+    }
+
+    .auditorium-review-comment svg {
+        color: #EC1010;
+        font-size: 12px;
+    }
+
+    .auditorium-review-comment p {
+        margin: 0;
+        padding: 0;
+        line-height: 17px;
+    }
+
+    .auditorium-review-comment {
+        border-color: #828282;
+    }
+
+    .auditorium-gallery-left {
+        position: relative;
+    }
+
+    .auditorium-gallery-left img {
+        width: 100%;
+        height: 408px;
+        object-fit: cover;
+    }
+
+    .auditorium-gallery-rightitem {
+        position: relative;
+    }
+
+    .auditorium-gallery-rightitem img {
+        width: 100%;
+        height: 125px;
+        object-fit: cover;
+    }
+
+    .auditorium-gallery-rightitem-overlay {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 0;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
+    }
+
+    .auditorium-gallery-heartwishlist {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 40px;
+    }
+
+    .auditorium-gallery-heartwishlist svg {
+        color: red;
+        font-size: 20px;
+    }
+
+    .auditorium-card-gallery {
+        position: relative;
+    }
+
+    .auditorium-card-gallery img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+
+    .auditorium-card-gallery-heartwishlist {
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        width: 25px;
+        height: 25px;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+
+    .auditorium-card-gallery-heartwishlist svg {
+        color: red;
+        font-size: 13px;
+    }
+
+    .auditorium-card-gallery-item {
+        width: 40px;
+        height: 35px;
+        position: relative;
+    }
+
+    .auditorium-card-gallery-item+.auditorium-card-gallery-item {
+        margin-left: 5px;
+    }
+
+    .auditorium-card-gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .auditorium-card-gallery-item-overlay {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 0;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tab-menu-auditorium {
+        border-bottom: 1px solid #A5A5A5;
+        height: 35px;
+        margin: 0 0 20px 0;
+    }
+
+    .tab-menu-auditorium .ant-anchor {
+        display: flex;
+        padding: 0;
+    }
+
+    .tab-menu-auditorium .ant-anchor-link {
+        padding: 0;
+    }
+
+    .tab-menu-auditorium.ant-anchor-ink {
+        padding: 0;
+    }
+
+    .tab-menu-auditorium a {
+        color: #333;
+        font-size: 16px;
+        font-weight: 600;
+        position: relative;
+        padding: 0 0 11px 0;
+    }
+
+    .tab-menu-auditorium .ant-anchor-link+.ant-anchor-link {
+        margin-left: 50px;
+
+    }
+
+    .tab-menu-auditorium .ant-anchor-ink:before {
+        display: none;
+    }
+
+    .tab-menu-auditorium .ant-anchor-link.ant-anchor-link-active a {
+        color: #D94747;
+    }
+
+    .tab-menu-auditorium .ant-anchor-link.ant-anchor-link-active a::after {
+        content: '';
+        width: 100%;
+        height: 3px;
+        background-color: #D94747;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-radius: 8px;
+    }
+
+    .filter-input .ant-space-vertical{
+        width: 100%;
+    }
+
+    .ant-form-item-control-input-content .ant-space-vertical{
+        width: 100%;
+    }
+}

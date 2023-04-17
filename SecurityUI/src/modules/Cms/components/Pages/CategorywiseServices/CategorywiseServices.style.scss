@@ -1,0 +1,86 @@
+// Known issue: Without body wrapper CSS from other layout interferes.
+body.public-theme-wrapper {
+    .sidebar-list-nav {
+        ul {
+            list-style-type: none;
+
+            li {
+                margin-bottom: 1rem;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+
+            a {
+                display: block;
+                padding: 3px 10px;
+                border-radius: 0.3rem;
+                color: var(--bs-gray-dark);
+                border: 2px solid #f0f2f5;
+
+                &:hover {
+                    background-color: #ededed;
+                    border-color: #ccc;
+                }
+
+                &.active {
+                    font-weight: 700;
+                    background-color: #f3ccc0;
+                    border-color: #db9883;
+
+                    &:hover {
+                        background-color: #edb2a0;
+                        border-color: #d48c77;
+                    }
+                }
+            }
+        }
+    }
+
+    .list-filter-wrapper {
+        .ant-btn-primary {
+            background-color: #db3300;
+            border-color: #db3300;
+        }
+    }
+
+    .service-card {
+        position: relative;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        transition: all 0.5s ease;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            top: -5px;
+            left: 0;
+            height: 5px;
+            background-color: var(--service-card-color);
+        }
+
+        .service-card-btn {
+            background-color: var(--service-card-color);
+            border-color: var(--service-card-color);
+
+            &:hover {
+                background-color: #333;
+                border-color: #333;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0 0.8rem 0.5rem rgba(0, 0, 0, 0.1) !important;
+            transition: all 0.5s ease;
+            transform: translateY(-1px);
+        }
+    }
+
+    .service-card-link {
+        &:hover {
+            color: var(--bs-primary) !important;
+        }
+    }
+}

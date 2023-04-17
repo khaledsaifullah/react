@@ -1,0 +1,235 @@
+// Known issue: Without body wrapper CSS from other layout interferes.
+body.public-theme-wrapper {
+    // Home Page Hero
+    // ----------------------------
+    &.home .header-container {
+        background-image: url('../../../../../assets/images/background/hero-gradient.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 0;
+    }
+
+    .homepage-hero {
+        position: relative;
+        z-index: 1;
+
+        .svg-separator {
+            margin-bottom: -8px;
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    .hero-waves {
+        position: absolute;
+        bottom: 0;
+
+        &.hero-wave--left {
+            left: 0;
+            z-index: -1
+        }
+
+        &.hero-wave--right {
+            right: 0;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .homepage-hero-text {
+            padding-right: 5rem;
+        }
+    }
+
+    .homepage-hero-image {
+        border: 3px solid #fff;
+    }
+
+    // Known issue: setting this to outside carousel as carousel has overflow hidden by default.
+    .homepage-carousel {
+        &::after {
+            content: "";
+            position: absolute;
+            top: -10px;
+            right: 10px;
+            bottom: 10px;
+            left: -10px;
+            background: linear-gradient(152.98deg, rgba(255, 255, 255, 0.2) 14.8%, rgba(255, 255, 255, 0.01) 87.76%);
+            box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            z-index: -1;
+        }
+    }
+
+    .pattern-tools,
+    .pattern-chip,
+    .pattern-vr {
+        width: 50%;
+        position: absolute;
+        top: 0;
+        opacity: 0.4;
+    }
+
+    @media (min-width:768px) {
+        .pattern-tools,
+        .pattern-chip,
+        .pattern-vr {
+            width: auto;
+        }
+    }
+
+    .pattern-tools {
+        right: 0;
+    }
+
+    .pattern-vr,
+    .pattern-chip {
+        left: 0;
+    }
+
+    .pattern-vr {
+        top: 300px;
+    }
+
+
+    .homepage-tabs {
+        .ant-tabs-nav-list {
+            width: 100%;
+            justify-content: space-evenly;
+        }
+
+        .ant-tabs-nav {
+            border-bottom: 5px solid var(--bs-primary);
+        }
+
+        .ant-tabs-tab {
+            flex: 1;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            transition: all 0.5s ease;
+
+            &:hover {
+                background-color: #ededed;
+                transition: all 0.5s ease;
+            }
+
+            .ant-tabs-tab-btn {
+                flex: 1;
+                text-align: center;
+                color: #666;
+                font-size: 0.9rem;
+
+                @media (max-width: 768px) {
+                    .anticon {
+                        display: none;
+                    }
+                }
+            }
+
+            @media (min-width: 768px) {
+                .ant-tabs-tab-btn {
+                    font-size: 1.2rem;
+                }
+            }
+
+            &.ant-tabs-tab-active {
+                background-color: var(--bs-gray-dark);
+                position: relative;
+                z-index: 1;
+
+                .ant-tabs-tab-btn {
+                    color: #fff;
+                }
+            }
+        }
+
+        .ant-tabs-nav-more,
+        .ant-tabs-ink-bar {
+            display: none;
+        }
+    }
+
+    .tabbed-card {
+        transition: all 0.5s ease;
+        border: 1px solid #ccc;
+
+        .card-header {
+            border-radius: 0.375rem 0.375rem 0 0;
+            background-color: var(--tabbed-card-header-bg-color);
+            padding-right: 5rem;
+            transition: all 0.5s ease;
+        }
+
+        &:hover {
+            box-shadow: 0 0.8rem 0.5rem rgba(0, 0, 0, 0.1) !important;
+            transition: all 0.5s ease;
+            transform: translateY(-1px);
+
+            .card-header {
+                background-color: var(--bs-gray-dark);
+                transition: all 0.5s ease;
+            }
+        }
+    }
+
+    .tabbed-card-badge {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        border-radius: 0 0 10px 10px;
+        line-height: 1.5rem;
+        color: var(--tabbed-card-badge-text-color);
+    }
+
+    .tabbed-card-list {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            position: relative;
+            padding-left: 1rem;
+            margin-bottom: 0.5rem;
+
+            &::after {
+                content: "♦";
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: #245473;
+                transition: all 0.5s ease;
+            }
+
+            &:hover::after {
+                transform: rotate(90deg) translateY(-2px);
+                transition: all 0.5s ease;
+                color: var(--bs-primary);
+            }
+
+            a {
+                color: var(--bs-gray-dark);
+
+                &:hover {
+                    color: var(--bs-primary);
+                }
+            }
+        }
+    }
+
+    .tabbed-card-more-icon {
+        transition: all 0.5s ease;
+    }
+
+    .tabbed-card-more {
+        &:hover {
+            color: var(--bs-gray-dark);
+
+            .tabbed-card-more-icon {
+                margin-left: 0.5rem;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+}

@@ -1,0 +1,328 @@
+// Known issue: Without body wrapper CSS from other layout interferes.
+.public-theme-wrapper {
+   .library-header{
+        padding: 20px 0;
+        background-image: url(../../../../../assets/images/banner/library-header.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+   .library-header h2{
+    font-size: 32px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 30px #000000;
+   }
+  .library-header-breadcum{
+    padding: 30px 0 0 0;
+    color: #fff;
+  }
+  .library-header-breadcum .ant-breadcrumb-link,
+  .library-header-breadcum li a{
+    color: #fff;
+    font-size: 16px;
+  }
+  .library-header-breadcum .ant-breadcrumb-link span{
+    color: #fff;
+    font-size: 13px;
+    padding: 0 4px;
+  }
+  .library-header-breadcum .ant-breadcrumb-separator{
+    display: none;
+  }
+  .library-access-countation{
+    padding: 28px 0;
+  }
+  .library-access-count{
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0 40px;
+  }
+ .library-access-count img {
+    margin-right: 15px;
+}
+  .library-search-content{
+      font-size: 30px;
+      padding: 30px 0 30px 0;
+  }
+  .library-search-dropdown {
+    width: 190px;
+    height: 43px;
+    border: 1px solid #7CA1B1;
+    border-radius: 2px;
+    text-align: left;
+    padding: 4px 0;
+  }
+  .library-search-content-middle {
+    width: 558px;
+    height: 43px;
+    border: 1px solid #7CA1B1;
+    border-radius: 2px;
+}
+.library-search-content-middle button {
+  color: #fff;
+  border: none;
+  background-color: #D75F29;
+  border-radius: 0;
+  height: 42px;
+}
+.library-search-inputfiled{
+  width: 100%;
+  padding: 0px 0;
+}
+.library-search-inputfiled input{
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.library-search-advane-btn{
+  width: 150px;
+  margin-left: 10px;
+}
+.library-search-advane-btn button{
+  color: #fff;
+  border: none;
+  background-color: #D75F29;
+  border-radius: 2px;
+  height: 41px;
+  width: 100%;
+}
+.block-library + .block-library{
+  margin-top: 30px;
+}
+.block-library-title{
+  font-size: 20px;
+}
+.block-library-input {
+  margin-bottom: 15px;
+}
+.block-library-input .ant-input-affix-wrapper{
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  background-color: transparent;
+}
+.block-library-input  .ant-input{
+  background-color: transparent;
+}
+.block-library-list + .block-library-list {
+  margin-top: 10px;
+}
+.block-library-content {
+  height: 150px;
+  overflow: auto;
+}
+.library-productlisting-title h2{
+  position: relative;
+}
+.library-productlisting-title h2:after {
+  content: '';
+  width: 160px;
+  height: 2px;
+  background-color: #F65B2B;
+  position: absolute;
+  bottom: 0;
+  margin-left: -210px;
+}
+.library-view-all{
+  font-size: 16px;
+  line-height: 22px;
+  color: #D75F29;
+}
+
+.library-product {
+  flex-basis: 33%;
+}
+.library-product-type{
+  font-size: 12px;
+}
+.library-product-picture{
+   width: 155px;
+   height: 220px;
+   margin: auto;
+   background-color: #D9D9D9;
+   overflow: hidden;
+}
+.library-product-picture img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.library-product-picture img:hover {
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  transform: scale(1.02);
+}
+.library-product-title a{
+  font-size: 14px;
+  color: #6E6F71;
+}
+.library-product-title a:hover{
+  color: #000000;
+}
+.library-product-decription{
+  font-size: 12px;
+  color: #6E6F71;
+}
+.library-product-btngroup button {
+  cursor: pointer;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.library-product-btngroup button:hover span img {
+  filter: brightness(0) invert(1);
+}
+.library-reserver-btn{
+    width: 110px;
+    height: 34px;
+    border: 1px solid #4DA54B;
+    border-radius: 2px;
+    background-color: transparent;
+}
+.library-reserver-btn:hover{
+    color: #fff;
+    background-color: #4DA54B;
+}
+
+.library-ebook-btn{
+  width: 110px;
+  height: 34px;
+  border: 1px solid #D75F29;
+  border-radius: 2px;
+  background-color: transparent;
+}
+.library-ebook-btn:hover{
+  color: #fff;
+  background-color: #D75F29;
+}
+.library-detail-btn{
+  width: 110px;
+  height: 34px;
+  background: #D75F29;
+  border: 1px solid #D75F29;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 2px;
+  color: #fff;
+  padding: 4px 0 0 0;
+}
+.library-detail-btn:hover{
+  background: #000000;
+  border: 1px solid #000000;
+}
+.library-bookmark-btn{
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.library-advancedsearch-container{
+    max-width: 920px;
+    margin: auto;
+    padding: 15px;
+}
+.library-advancedsearch-left .ant-select{
+    width: 100%;
+}
+.library-advancedsearch-right .ant-select{
+    width: 100%;
+}
+.library-advancedsearch-btn-reset {
+    border: none;
+    background-color: #fff;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 0 10px;
+    padding: 7px 25px;
+    cursor: pointer;
+}
+.library-advancedsearch-btn-applyfilter {
+    border: none;
+    background-color: #1890FF;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 0 10px;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+
+.block-library-content {
+      /* width */
+      &::-webkit-scrollbar {
+          width: 5px;
+          border-radius: 5px;
+      }
+
+      /* Track */
+      &::-webkit-scrollbar-track {
+          background: #f1f1f1;
+          border-radius: 5px;
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+          background: #ccc;
+          border-radius: 5px;
+      }
+
+      /* Handle on hover */
+      &:hover::-webkit-scrollbar-thumb {
+          background: #999;
+          border-radius: 2px;
+      }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .library-access-count{
+    font-size: 16px;
+  }
+  .library-header h2{
+    font-size: 23px;
+  }
+  .library-header-breadcum{
+    padding: 0;
+  }
+  .library-search-content{
+    padding: 20px 15px;
+  }
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .library-access-count{
+    margin-top: 10px;
+  }
+  .library-search-content-middle{
+    width: 100%;
+  }
+  .library-search-advane-btn{
+    margin: 10px 0 0 0;
+  }
+  .library-search-dropdown{
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+}

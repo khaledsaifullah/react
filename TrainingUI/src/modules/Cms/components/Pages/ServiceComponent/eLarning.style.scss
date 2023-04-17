@@ -1,0 +1,101 @@
+.public-theme-wrapper{
+    .main-content-ebanner{
+        min-height: 450px;
+        box-shadow: 0px 4px 70px 18px rgba(0, 0, 0, 0.25);
+        background-color: #fff;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../../../../../assets/images/pages/home/bgbannerelearning.png);
+        }
+        .main-content-ebanner  h4{
+            color: #03743D;
+            font-size: 16px;
+            line-height: 30px;
+         }
+         .main-content-ebanner  h2{
+            color: #000;
+            line-height: 35px;
+        }
+         .main-content-ebanner  p{
+            color: #878787;
+            line-height: 22px;
+            max-width: 520px;
+        }
+        .main-esearch-content  {
+            width: 570px;
+        }
+        .main-esearch-content   .ant-input{
+            border-color: transparent;
+            border-width: 0;
+            height: 60px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            font-size: 16px;
+        }
+        .main-esearch-content   .ant-btn{
+            background-color: transparent;
+            border-color: transparent;
+            border-width: 0;
+            color: #fff !important;
+            width: 48px;
+            height: 60px;
+        }
+        .main-esearch-content  .ant-input-group-addon{
+            background-color: #fff;
+        }
+        .main-esearch-content  .ant-btn svg{
+            color: #000;
+            font-size: 22px;
+        }
+        .main-ebanner-header img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* start: */
+        .courser-offerby-online{
+            min-height: 166px;
+            background-color: #03743D;
+        }
+        .courser-offerby{
+            width: 100px;
+            height: 100px;
+        }
+        .courser-offerby svg {
+            font-size: 70px;
+            color: #20B486;
+         }
+         .browse-category-item-arrow{
+            width: 45px;
+            height: 45px;
+            font-size: 12px;
+            color: #20B486;
+            background-color: #fff;
+         }
+         .browse-category-item{
+            min-height: 76px;
+            font-size: 18px;
+         }
+         .browse-category-item.active{
+            border: 1px solid #20B486;
+         }
+         .browse-category-item.active .browse-category-item-arrow{
+            background-color: #20B486;
+         }
+         .browse-category-item.active .browse-category-item-arrow img {
+            filter: brightness(30.5);
+        }
+
+
+         /* end: */
+
+
+
+
+
+
+
+
+
+
+}

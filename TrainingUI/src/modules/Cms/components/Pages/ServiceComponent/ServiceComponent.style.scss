@@ -1,0 +1,252 @@
+.public-theme-wrapper{
+    .main-content-banner{
+        min-height: 300px;
+        box-shadow: 0px 4px 70px 18px rgba(0, 0, 0, 0.25);
+        background-color: #002333;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../../../../../assets/images/pages/home/bgbannershape.png);
+    }
+    .main-content-banner  h4{
+        color: #00FF84;
+        font-size: 13px;
+        line-height: 30px;
+     }
+     .main-content-banner  h2{
+        color: #fff;
+        line-height: 35px;
+    }
+     .main-content-banner  p{
+        color: #878787;
+        line-height: 22px;
+        max-width: 520px;
+    }
+    .main-search-content  {
+        width: 280px;
+    }
+    .main-search-content   .ant-input{
+        border-color: #A4ACB0;
+        border-width: 2px;
+        height: 40px;
+    }
+    .main-search-content   .ant-btn{
+        background-color: #18364A;
+        border-color: #A4ACB0;
+        border-width: 2px;
+        color: #fff !important;
+        width: 48px;
+        height: 40px;
+    }
+    .main-search-content  .ant-input-group-addon{
+        background-color: #18364A;
+    }
+    .main-banner-header img {
+        max-width: 100%;
+        height: auto;
+    }
+    .training-title{
+        color: #002333;
+        font-size: 36px;
+    }
+    .training-sub-title{
+        color: #002333;
+        font-size: 28px;
+    }
+   .explore-training .border{
+        color: #002333;
+        border-color: rgba(0, 35, 51, 0.5) !important;
+        -webkit-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .explore-training .border:hover,
+    .explore-training  .active-explore{
+        background-color: #00FF84;
+        border-color: #03743D !important;
+        -webkit-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .course-name{
+        position: relative;
+    }
+    .course-name .card-body{
+        position: relative;
+    }
+    .card-img-box{
+        height: 170px;
+     }
+    .course-name .card-img-top{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .course-name .card-title{
+        font-size: 16px;
+        line-height: 18px;
+        height: 55px;
+    }
+    .btn-course{
+        color: #002333;
+        font-size: 12px;
+        background-color: #fff;
+        border: 1px solid #002333;
+        padding: 3px 55px;
+        -webkit-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .btn-course:hover{
+        color: #fff;
+        background-color: #002333;
+        -webkit-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .course-fs-small{
+        font-size: 11px;
+    }
+    .course-time-rate {
+        position: absolute;
+        top: -39px;
+        left: 0;
+        width: 100%;
+        color: #fff;
+        font-size: 13px;
+        padding: 9px 16px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.69) 39.58%);
+    }
+    .course-wishlist{
+        background-color: #fff;
+        width: 42px;
+        height: 42px;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+    .course-government-seal{
+        background-color: #fff;
+        width: 42px;
+        height: 42px;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+    .show-more a{
+        color: #333333;
+        font-size: 20px;
+    }
+    .page-title{
+        font-size: 36px;
+        line-height: 36px;
+        color: #002333;
+    }
+    .sub-title{
+        font-size: 24px;
+        line-height: 25px;
+        color: #002333;
+     }
+    .tab-nav-list a{
+        font-size: 24px;
+        line-height: 25px;
+        color: #002333;
+        position: relative;
+        margin-right: 25px;
+        padding-bottom: 8px;
+    }
+    .tab-nav-list a:after {
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: #002333;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .course-search-left .ant-form-item {
+        margin: 0;
+    }
+    .course-search-left .ant-input,
+    .course-search-left .ant-input-group-addon,
+    .course-search-left .ant-btn{
+        border-color: transparent;
+        box-shadow: none;
+    }
+    .course-search-left .ant-input:focus{
+        border-color: transparent;
+        box-shadow: none;
+    }
+    .course-wishlist-active{
+        background-color: #002333;
+    }
+    .course-wishlist-active svg {
+        color: #00FF84;
+    }
+    .card-rating img + img{
+        margin-left: 2px;
+    }
+    .left-box {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .img-fluid {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .training-capacity{
+        background-color: rgba(36, 84, 115, 0.17);
+    }
+    .star-yellow{
+        color: #FFF501;
+    }
+    .register-now-btn{
+        background-color: #244D6E;
+        border-color:  #244D6E;
+    }
+    .share-this-with svg {
+        font-size: 40px;
+    }
+    .little-arrow{
+        position: relative;
+        padding-left: 10px;
+    }
+    .little-arrow::before{
+        content: '';
+        width: 11px;
+        height: 4px;
+        background-color: red;
+        position: absolute;
+        left: 0;
+        top:-8px;
+    }
+    .little-arrow::after{
+        content: '';
+        width: 4px;
+        height: 11px ;
+        background-color: red;
+        position: absolute;
+        left: 0;
+        top:-8px;
+    }
+    .recent-training-subtitle{
+        color: #029A51;
+        font-size: 12px;
+    }
+    .recent-training-title a{
+        color: #000;
+    }
+    .recent-training-title a:hover{
+        color: #f00;
+    }
+
+    @media screen and (max-width: 767px) {
+        .main-content-banner .ant-col-offset-2{
+            margin-left: 0;
+        }
+
+    }
+
+
+
+
+}
+
+

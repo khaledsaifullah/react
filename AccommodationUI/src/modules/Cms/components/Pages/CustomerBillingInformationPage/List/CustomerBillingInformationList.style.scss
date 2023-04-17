@@ -1,0 +1,63 @@
+body.public-theme-wrapper{
+     .booking-leftsidebar{
+        background: rgba(18, 50, 75, 0.08);
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+    }
+    .payment-history-page {
+        background-color: #fff;
+        overflow: hidden;
+    }
+    .payment-history-page .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    .payment-history-filter div {
+        flex-basis: 25%;
+    }
+    .pyment-clearfilter-btn,.pyment-clearfilter-btn:focus{
+        background-color: #B6B6B6;
+        font-size: 14px;
+        border: none;
+    }
+    .status-paid{
+        color: #09A777;
+    }
+    .pay-now{
+        width: 100px;
+        color: #0075FF;
+        display: flex;
+        justify-content: space-between;
+    }
+    .stay-field{
+        width: 100px;
+    }
+    .status-pending{
+        color: #D94747;
+    }
+    .guest-house-field{
+        width: 100px;
+    }
+    .invoice-link svg{
+        color: #000;
+        transform: rotate(-134deg);
+        font-size: 22px;
+    }
+    .payment-history-datatable .ant-table table{
+        border: 1px solid #309975;
+        border-radius: 4px;
+    }
+    .payment-history-datatable thead  th {
+        background-color: #309975;
+        color: #fff;
+        border-right: none !important;
+    }
+    .payment-history-datatable  .ant-table-tbody>tr>td {
+        border-bottom: 1px solid #53ff50;
+        border-right: none !important;
+    }
+
+
+
+
+
+}

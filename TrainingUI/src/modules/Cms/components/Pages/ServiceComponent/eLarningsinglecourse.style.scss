@@ -1,0 +1,151 @@
+.public-theme-wrapper {
+    .elearning-single-course-header {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+            linear-gradient(0deg, rgba(3, 116, 61, 0.8), rgba(3, 116, 61, 0.8));
+    }
+
+    .video-content-box {
+        width: 100%;
+        height: 225px;
+        position: relative;
+        background-color: #dadada;
+        overflow: hidden;
+        border: 4px solid #2ABB75
+    }
+
+    .video-embed-code {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .video-embed-code * {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-img-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .video-img-box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-play-btn {
+        position: absolute;
+        width: 42px;
+        height: 42px;
+        background-image: url(../../../../../assets/images/pages/home/play-btn.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        border-radius: 50%;
+        cursor: pointer;
+        transform: translate(-50%, -50%);
+    }
+
+    .close-the-video {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        height: 50px;
+        background-color: #2ABB75;
+        /* background-image: url(images/cross.png); */
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTY1MzNDRjU2MTU0MTFFOEFEMDRCMDI0QzgxQUEzNzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTY1MzNDRjY2MTU0MTFFOEFEMDRCMDI0QzgxQUEzNzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFNjUzM0NGMzYxNTQxMUU4QUQwNEIwMjRDODFBQTM3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNjUzM0NGNDYxNTQxMUU4QUQwNEIwMjRDODFBQTM3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjCHMwoAAAFfSURBVHja7NqxasMwEAZgOw9hbxnSBykteYXkYTJkbMaSh0tH7yXQpZQSCKhnapMQkG2d7tcdRgf/YBDC32L0I5fOuWIOsyhmMhmSIRnCh5SUPaU28J4bysvgivbz68ne/c+JUg+sQ2dLuVJ+KE++dUMb1B1CE9Mj2nkbWju2kSZmMmIKRAsThJgKSY0JRoRAUmFYiFAIGsNGcCAoTBSCC5HGRCNiIFIYEUQsJBYjhpCAcDGiCClIKEYcIQmZioEgpCFjGBgCAfFhoAgU5BHToBFISI9p3G2OyBMzsrM/U5Z3z2tobU5wFH9PUQFS9Ql4BUjZJ6CY1KUIhtEoRRCMVrMTx2g2O1FModzsxDCq9VQSo40Qw1hAiGCsIKIxlhBRGGsINsYigoWxivBhKk6xOlMulANlp3R3+El5pXxQvii/3gvPkV84VpTGwGVo1SG+uZB8z54hGZIhtuZPgAEAFSCrqDqIaqEAAAAASUVORK5CYII=);
+        background-repeat: no-repeat;
+        background-position: center center;
+        z-index: 1;
+        border: 3px solid #fff;
+        background-size: 30px;
+        cursor: pointer;
+        display: none;
+        border-radius: 50%;
+    }
+
+    .yellow-star {
+        color: #FFF501;
+    }
+
+    /* start: */
+    .course-collapse {
+        border: none;
+        background-color: transparent;
+        border-radius: 0;
+    }
+
+    .course-collapse .ant-collapse {
+        border: none;
+        background-color: transparent;
+        border-radius: 0;
+    }
+
+    .course-collapse.active {
+        border: 1px solid #bb0202;
+        background-color: #fbf4f4;
+    }
+
+    .course-collapse .ant-collapse>.ant-collapse-item {
+        border: 1px solid #d9d9d9;
+        background-color: #fff;
+        margin-bottom: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .course-collapse .ant-collapse-header {
+        border: none !important;
+        color: #333;
+        font-weight: bold;
+        flex-direction: row-reverse;
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .course-collapse .ant-collapse-content {
+        border: none !important;
+    }
+
+    .about-professional-certificate {
+        background-color: rgba(192, 192, 192, 0.1);
+    }
+
+    /* end: */
+
+
+    .progress-item .ant-progress-inner {
+        background-image: linear-gradient(#cfc9c9, #f1f1ef, #d9d5d5);
+    }
+
+    .progress-item .ant-progress-bg {
+        background-color: #002333;
+    }
+
+    .course-enroll-now {
+        background-color: #FFC27A;
+    }
+
+    .top-development-course .course-name {
+        max-width: 80%;
+        margin: 15px auto;
+    }
+
+
+
+
+
+
+
+}

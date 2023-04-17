@@ -1,0 +1,35 @@
+.register_content {
+  .site-card-wrapper {
+    margin: 10vh 0;
+    .ant-col {
+      margin: 0 auto;
+
+      .logo_register_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .logo_register_image {
+          width: 100px;
+          height: 100px;
+          margin-bottom: 0.3rem;
+        }
+        .logo_text {
+          h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0;
+          }
+          h4 {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+      .login-form-button {
+        width: 100%;
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+}

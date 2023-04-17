@@ -1,0 +1,63 @@
+.public-theme-wrapper {
+    .virtual-feature-block{
+         border-color: #106AA4 !important;
+         position: relative;
+         margin-top: 30px;
+    }
+    .virtual-feature-block p{
+        margin: 0;
+        padding: 0;
+        color:#333;
+        font-size: 20px;
+    }
+    .virtual-feature-icon {
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        left: 30px;
+        top: -55px;
+        border-radius: 72px;
+        background-color: #f0f2f5;
+    }
+    .virtual-tour-museum h6 {
+         min-height: 40px;
+    }
+    .virtual-tour-icon {
+        min-height: 120px;
+     }
+     .virtual-arrow {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: #D9D9D9;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.35);
+        border-radius: 3px;
+        margin: 0 2px;
+    }
+    @media screen and (max-width: 767px) {
+        .virtual-feature-block{
+            margin-top: 60px;
+        }
+        .virtual-feature-content   .first .virtual-feature-block{
+            margin-top: 0;
+        }
+        .virtual-feature-content .first + div .virtual-feature-block {
+            margin-top: 30px;
+        }
+        .virtual-tour-museum h6 {
+            min-height: auto;
+       }
+       .virtual-tour-icon {
+           min-height: auto;
+        }
+
+
+
+    }
+
+
+
+
+
+
+}

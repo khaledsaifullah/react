@@ -1,0 +1,268 @@
+body.public-theme-wrapper{
+        .search-filter-detail-contentbody{
+            background-color: #ecfbfb;
+        }
+        .search-by-property .ant-input,
+        .search-by-property .ant-input:hover,
+        .search-by-property .ant-input:focus{
+            border-color: #083755;
+            padding: 10px 11px;
+            border-radius: 5px;
+            box-shadow: none;
+            border-top-right-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
+            border-right: transparent !important;
+       }
+
+        .search-by-property .ant-btn{
+            border-color: #083755;
+            border-left-color: transparent;
+            border-radius: 5px !important;
+            border-top-left-radius: 0 !important;
+            border-bottom-left-radius: 0 !important;
+        }
+        .search-by-property .ant-btn:hover{
+            border-left: transparent;
+        }
+        .search-by-property  .ant-input-search-button {
+            height: 44px;
+            width: 50px;
+        }
+        .search-by-property .ant-btn svg{
+            color:  #05694B;
+            font-size: 22px;
+        }
+        .block-filterby-title{
+            background-color: #0D8467;
+            color: #fff;
+            font-size: 20px;
+            line-height: 53px;
+            min-height: 53px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .block-filterby-body{
+            background: #F8F8F8;
+            border: 1px solid #0D8467;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+         .userrating{
+            color: #E72727;
+            font-size: 15px;
+        }
+        .custompricefilter .ant-input{
+            border: 1px solid #0D5889;
+            border-radius: 5px;
+            height: 27px;
+        }
+        .custompricefilter-minus{
+            color: transparent;
+            font-size: 43px;
+            font-weight: bold;
+            width: 18px;
+            border-top: 2px solid #EC1010;
+            margin: 13px 7px 0 10px;
+        }
+        .custompricefilter .ant-btn{
+            background: #0D5889;
+            border-color: #0D5889;
+            border-radius: 5px;
+            width: 39px;
+            height: 27px;
+        }
+
+        .serachfilter-result{
+            border: 1px solid #0585D8;
+            filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+            border-radius: 10px;
+        }
+        .serachfilter-result .filter-label{
+            color: #0585D8;
+            font-weight: bold;
+        }
+        .serachfilter-result  .filter-input .ant-select-selector,
+        .serachfilter-result .filter-input .ant-picker{
+            width: 100%;
+            border: 1px solid #0585D8 !important;
+            border-radius: 8px !important;
+        }
+        .serachfilter-result .filter-input  .ant-space{
+            width: 100%;
+         }
+         .serachfilter-result .filter-search {
+            background: #0585D8;
+            border-color: #0585D8;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+             font-size: 22px;
+            color: #FFFFFF;
+            width: 100%;
+        }
+        .filter-scroll{      
+            height: 130px;
+            overflow-y: scroll;
+            padding-right: 15px;
+        }
+        /* width */
+.filter-scroll::-webkit-scrollbar {
+  width: 3px;
+  cursor: pointer;
+}
+
+/* Track */
+.filter-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.filter-scroll::-webkit-scrollbar-thumb {
+  background: #999; 
+}
+
+/* Handle on hover */
+.filter-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+        .accommodation-package-title{
+            color: #0B6735;
+            line-height: 20px;
+        }
+        .accommodation-package-rating  svg{
+            color: #EC1010;
+        }
+        .accommodation-package-text{
+            font-size: 13px;
+        }
+        .accommodation-package-text svg{
+            color: #0B6735;
+            font-size: 13px;
+        }
+        .accommodation-package-detail{
+            border-left: 2px solid #C6C6C6;
+        }
+        .accommodation-package-detail p{
+            margin: 0;
+            padding: 0;
+        }
+        .accommodation-package-types{
+            color: #1293CA;
+            font-size: 11px;
+        }
+        .accommodation-package-tax{
+            color: #D94747;
+            font-size: 11px;
+        }
+        .accommodation-package-amount{
+            color: #0D5889;
+            font-size: 20px;
+            line-height: 22px;
+        }
+        .accommodation-package-price {
+            min-width: 140px;
+        }
+        .accommodation-package-reviewnumber{
+            font-size: 11px;
+        }
+        .accommodation-package-box{
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+        }
+        .accommodation-package-view{
+            color: #08A676;
+            font-size: 11px;
+        }
+        .accommodation-package  .see-availability {
+            font-size: 17px;
+            line-height: 10px;
+        }
+        .accommodation-package  .see-availability svg{
+            font-size: 14px;
+        }
+        .left-filter-title{
+            position: relative;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .left-filter-title::after{
+            content: '';
+            width: 100%;
+            border-bottom: 1px solid red;
+            position: absolute;
+            left: 0;
+            bottom: 9px;
+            z-index: 1;
+        }
+        .left-filter-title span{
+            position: relative;
+            z-index: 3;
+            background-color: #F8F8F8;
+            padding-right: 8px;
+        }
+
+        .roompreferencefilter-title{
+            color: #1A09D8;
+        }
+        .roompreferencefilter-title::after{
+            border-color: rgba(26, 9, 216, 0.37);
+        }
+
+        .facilitiesfilter-title{
+            color: #690039;
+        }
+        .facilitiesfilter-title::after{
+            border-color: rgba(105, 0, 57, 0.37);
+        }
+
+
+        .priceleftfilter-title{
+            color: #006950;
+        }
+        .priceleftfilter-title::after{
+            border-color: rgba(0, 105, 80, 0.37);
+        }
+        .priceleftfilter-title span span{
+            font-size: 11px;
+        }
+
+        .userratingfilter-title{
+            color: #FF8D06;
+        }
+        .userratingfilter-title::after{
+            border-color: rgba(255, 141, 6, 0.37);
+        }
+
+
+        .locationfilter-title{
+            color: #0E6596;
+        }
+        .locationfilter-title::after{
+            border-color: rgba(14, 101, 150, 0.37);
+        }
+
+
+        .catfilter-title{
+            color: #D94747;
+        }
+        .catfilter-title::after {
+            border-color: rgba(217, 71, 71, 0.37);
+        }
+
+        .organizationfilter-title{
+            color: #A804AB;
+        }
+        .organizationfilter-title::after{
+            border-color: rgba(168, 4, 171, 0.37);
+        }
+
+        .leftfilter-more-link a{
+            color: #1945E1;
+            font-size: 14px;
+        }
+
+
+
+
+
+
+
+}

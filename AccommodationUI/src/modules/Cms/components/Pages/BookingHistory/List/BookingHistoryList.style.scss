@@ -1,0 +1,321 @@
+body.public-theme-wrapper{
+    .booking-history-page .container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .booking-history-page{
+        background-color: #fff;
+        overflow: hidden;
+    }
+    .booking-leftsidebar{
+        background: rgba(18, 50, 75, 0.08);
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+    }
+    .document-verification{
+        background: linear-gradient(180deg, rgba(255, 203, 8, 0.608) 0%, rgba(237, 28, 36, 0.384) 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+    .document-verification p{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .document-recheck{
+        color: #fff;
+        font-size: 14px;
+        background-color: rgba(160, 14, 14, 0.88);
+    }
+    .document-check{
+        background-color: #fff;
+        background-image: url(../../../../../../assets/images/icon/document-check-icon.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 24px;
+        height: 24px;
+        border-radius: 24px;
+        display: inline-block;
+        color: #fff;
+        font-size: 14px;
+    }
+    .booking-leftborad ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .booking-leftborad ul li{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 16px;
+        line-height: 17px;
+        color: #929292;
+    }
+    .booking-leftborad-item{
+        margin: 0;
+        padding: 10px 15px;
+        border-radius: 10px 0px 0px 10px;
+        color: #6E6F71;
+        text-align: left;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .booking-leftborad-item  svg{
+        color: #6E6F71;
+    }
+    .booking-leftborad-item a{
+        color: #6E6F71;
+    }
+    .booking-leftborad-item a:hover{
+        color: #000;
+    }
+    .booking-leftborad-item.active{
+        color: #fff;
+        background: #12324B;
+    }
+    .booking-leftborad-item.active  svg{
+        color: #fff;
+    }
+    .document-number{
+        background-color: #fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 24px;
+        display: inline-block;
+        line-height: 20px;
+        color: #000;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* start:right side */
+    .booking-history-filter{
+        background-color: rgba(237, 237, 237, 0.72);
+    }
+    .bookinghistory-filter-title{
+        font-size: 32px;
+        color: #C51E1E;
+    }
+    .bookinghistory-filter-menu a{
+        font-size: 20px;
+        color: #000;
+        border-bottom: 2.5px solid transparent;
+        margin-right: 30px;
+        padding-bottom: 5px;
+     }
+     .bookinghistory-filter-menu a.active{
+        border-color: #C82E0C;
+     }
+
+     .booking-history-filter .ant-select-selector {
+        border-color: #B6B6B6 !important;
+        border-radius: 5px !important;
+    }
+    .booking-history-filter .ant-input{
+        border-color: #B6B6B6 !important;
+        border-top-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+    }
+    .booking-history-filter   .ant-btn{
+        border-radius: 0 5px 5px 0 !important;
+        border-left: none !important;
+        border-color: #B6B6B6 !important;
+    }
+    .booking-detail-pkg{
+        background-color: rgba(198, 199, 169, 0.5);
+        min-height: 240px;
+    }
+    .booking-detail-pkg-top{
+        border-bottom: 1px solid #7C7C7C;
+    }
+    .booking-history-gallery{
+        width: 160px;
+        height: 160px;
+    }
+    .booking-history-gallery img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .booking-history-title{
+        color: #333;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .booking-history-rating svg{
+        color: #EC1010;
+        font-size: 12px;
+    }
+    .booking-history-reviewtext{
+        font-size: 11px;
+        line-height: 27px;
+    }
+   .booking-history-detail {
+        border-left: 2px solid #066D99;
+    }
+    .booking-history-detail p{
+        color: #333;
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: bold;
+    }
+    .booking-history-text {
+        color: #635E5E;
+        font-size: 13px;
+    }
+    .booking-history-text svg{
+        color: #066D99;
+        font-size: 13px;
+    }
+    .booking-history-amount{
+        color: #333333;
+        font-weight: 700;
+        font-size: 16px;
+        border-bottom: 1px solid #ABABAB;
+    }
+    .booking-detail-pkg-link{
+        color: #0047FF;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .booking-detail-pkg-link  svg{
+        color: #0047FF;
+        font-size: 11px;
+    }
+    .booking-pkg-top-date {
+        font-size: 14px;
+        line-height: 17px;
+        border-right: 1px solid rgba(122, 122, 122, 0.6);
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+    .booking-pkg-top-date span{
+        color: #03355A;
+        padding-left: 2px;
+    }
+    .booking-pkg-top-title{
+        color: #0D986E;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .booking-pkg-top-title svg{
+        color: #0D986E;
+        font-size: 20px;
+    }
+    .review-btn {
+        border: 1px solid #09969F;
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 1px 20px;
+        height: auto;
+        line-height: 20px;
+        color: #09969F;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        min-width: 115px;
+    }
+    .share-btn {
+        border: 1px solid #5C93C6;
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 1px 20px;
+        height: auto;
+        line-height: 20px;
+        color: #5C93C6;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        min-width: 115px;
+    }
+
+    .book-again-btn {
+        border: 1px solid #0F7076;
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 1px 20px;
+        height: auto;
+        line-height: 20px;
+        color: #0F7076;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        min-width: 115px;
+    }
+    .divider-availed{
+        border-top: 1px solid #C1C1C1;
+        margin: 25px 0 0 0;
+    }
+
+    .change-date-btn {
+        border: 1px solid #1591D7;
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 1px 15px;
+        height: auto;
+        line-height: 20px;
+        color: #1591D7;
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        min-width: 115px;
+    }
+    .cancel-booking-btn{
+        border: 1px solid #CE8F8F;
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 1px 15px;
+        height: auto;
+        line-height: 20px;
+        color: #D94747;
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        min-width: 115px;
+
+    }
+    .change-room-btn {
+        border: 1px solid #1591D7;
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 1px 15px;
+        height: auto;
+        line-height: 20px;
+        color: #1591D7;
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        min-width: 115px;
+    }
+    .booked-detail-pkg{
+        background-color: rgba(186, 213, 213, 0.5);
+    }
+    .booked-detail-pkg .booking-pkg-top-title {
+        color: #1A7FAA;
+    }
+    .booked-detail-pkg .booking-pkg-top-title svg{
+        color: #1A7FAA;
+    }
+    .canceled-detail-pkg{
+        background-color: rgba(200, 178, 146, 0.5);
+    }
+    .canceled-detail-pkg .booking-pkg-top-title {
+        color: #D94747;
+    }
+    .canceled-detail-pkg .booking-pkg-top-title svg{
+        color: #D94747;
+    }
+
+
+
+
+}
+

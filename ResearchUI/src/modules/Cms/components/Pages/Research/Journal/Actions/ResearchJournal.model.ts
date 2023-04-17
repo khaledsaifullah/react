@@ -1,0 +1,66 @@
+export const applicationFields = {
+   id: undefined,
+   uuid: undefined,
+   organogram_id: undefined,
+   application_type: undefined,
+   circulation_code: undefined,
+   tracking_number: undefined,
+   applicant_name_en: undefined,
+   mobile_number: undefined,
+   email: undefined,
+   created_by: undefined,
+   updated_by: undefined,
+   deleted_at: undefined,
+   created_at: undefined,
+   updated_at: undefined,
+   sort_order: undefined,
+   status: undefined
+}
+
+export const researchJournalApplicationFields = {
+   id: undefined,
+   uuid: undefined,
+   organogram_id: undefined,
+   application_type: undefined,
+   circular_code: undefined,
+   application_id: undefined,
+   paper_title: undefined,
+   journal_name : undefined,
+   publisher_name: undefined,
+   publishing_country: undefined,
+   upload_manuscript: undefined,
+   upload_image: undefined,
+   submission_date: undefined,
+   received_date_by_editor: undefined,
+   process_status: undefined,
+   reviewed_by: undefined,
+   review_date: undefined,
+   review_comment: undefined,
+   upload_modify_manuscript_by_reviewer: undefined,
+   created_by: undefined,
+   updated_by: undefined,
+   deleted_at: undefined,
+   created_at: undefined,
+   updated_at: undefined,
+   sort_order: undefined,
+   status: undefined
+}
+
+export const researchJournalAuthorInformationFields = {
+   id: undefined,
+   uuid: undefined,
+   organogram_id: undefined,
+   research_journal_id: undefined,
+   author_type : undefined,
+   author_name : undefined,
+   email : undefined,
+   institution : undefined,
+   created_by: undefined,
+   updated_by: undefined,
+   deleted_at: undefined,
+   created_at: undefined,
+   updated_at: undefined,
+   sort_order: undefined,
+   status: undefined
+}
+

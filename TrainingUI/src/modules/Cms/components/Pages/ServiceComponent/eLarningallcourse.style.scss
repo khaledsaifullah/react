@@ -1,0 +1,47 @@
+.public-theme-wrapper {
+    .left-box {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .left-box-scrollnone {
+        overflow: auto;
+    }
+    .left-box ul{
+        margin: 0;
+        padding: 0;
+    }
+    .left-box ul li{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .left-box ul li + li{
+        margin-top: 3px;
+    }
+
+
+    /* width */
+    .left-box::-webkit-scrollbar {
+        width: 8px;
+    }
+
+  /* Track */
+  .left-box::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #dadada;
+  }
+
+  /* Handle */
+  .left-box::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  .left-box::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+
+
+
+}

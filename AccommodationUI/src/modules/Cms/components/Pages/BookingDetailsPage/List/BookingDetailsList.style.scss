@@ -1,0 +1,192 @@
+body.public-theme-wrapper{
+    .booking-review-page .container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .booking-review-page{
+        background-color: #fff;
+        overflow: hidden;
+    }
+    .booking-leftsidebar{
+        background: rgba(18, 50, 75, 0.08);
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    /* start:right side */
+     .review-feedback-heading{
+        background-color: #DADCD2;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 5px 5px 2px 2px;
+     }
+     .review-feedback-heading  :is(h1, h2, h3, h4, h5, h6){
+        color: #C51E1E;
+        line-height: normal;
+     }
+     .review-feedback-heading p{
+        font-size: 14px;
+        color: #635E5E;
+        margin: 0;
+        padding: 0;
+     }
+     .review-feedback-content{
+        background-color: rgba(255, 255, 255, 0.8);
+     }
+     .booking-date-time {
+        font-size: 14px;
+        line-height: 17px;
+        border-bottom: 1.5px solid #E0E0E0;
+     }
+     .booking-date-time span {
+        color: #03355A;
+        padding-left: 4px;
+    }
+    .booking-review-gallery {
+        width: 100%;
+        height: 145px;
+    }
+    .booking-review-gallery  img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .booking-review-title {
+        color: #333;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .booking-review-rating svg {
+        color: #EC1010;
+        font-size: 12px;
+    }
+    .booking-review-reviewtext {
+        font-size: 11px;
+        line-height: 27px;
+    }
+    .booking-review-text {
+        color: #635E5E;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .booking-review-text svg {
+        color: #066D99;
+        font-size: 13px;
+    }
+    .booking-review-detail {
+        border-left: 2px solid #066D99;
+    }
+    .booking-review-detail p {
+        color: #333;
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: bold;
+    }
+    .booking-review-commentbox{
+        background: rgba(229, 239, 239, 0.45);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        min-height: 400px;
+    }
+    .booking-review-btn {
+        border-color: #1129FF;
+        background: #1129FF;
+        box-shadow: 0px 2px 2px #1129ff;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: auto;
+        padding: 0 26px;
+    }
+    .booking-review-commentbox .booking-review-gallery{
+        height: 75px;
+    }
+    .booking-review-commentbox   .booking-review-title{
+        font-size: 14px;
+    }
+    .booking-review-commentbox   .booking-review-text{
+        color: #635E5E;
+        font-size: 12px;
+    }
+    .booking-review-commentbox   .booking-review-detail p{
+        color: #635E5E;
+        font-size: 12px;
+    }
+    .booking-review-commentbox  textarea{
+        border: 1px solid #ACACAC;
+        background: rgba(229, 239, 239, 0.45);
+    }
+    .review-feedback-detail-content{
+        background-color: rgba(219, 219, 207, 0.8);
+    }
+    .reviewfeedback-detail-heading{
+        background-color: #E2E2E2;
+    }
+    .review-feedback-detail-content  .booking-date-time{
+        border-color: #BEBEBE;
+    }
+    .review-feedback-detail-left{
+        border-left:1px solid #BEBEBE;
+    }
+    .review-feedback-detail-left  svg{
+        color: #FFB800;
+    }
+    .review-feedback-detail-content  .booking-review-gallery{
+            height: 105px;
+    }
+    .review-feedback-detail-content  .booking-review-text{
+        font-size: 11px;
+    }
+    .review-feedback-detail-left p{
+        font-size: 13px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+    }
+    .reviewfeedback-top-divider{
+        border-bottom:1px solid #BEBEBE;
+        max-width: 80%;
+    }
+    .reviewfeedback-left-list {
+          overflow-y: scroll;
+        height: 100px;
+     }
+    /* width */
+    .reviewfeedback-left-list::-webkit-scrollbar {
+        width: 5px;
+        border-radius: 3px;
+    }
+
+    /* Track */
+    .reviewfeedback-left-list::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 3px;
+    }
+
+    /* Handle */
+    .reviewfeedback-left-list::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 3px;
+    }
+
+    /* Handle on hover */
+    .reviewfeedback-left-list::-webkit-scrollbar-thumb:hover {
+        background: #555;
+        border-radius: 3px;
+    }
+
+   
+
+
+
+
+
+
+
+}
+
+
+
+
+
